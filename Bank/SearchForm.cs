@@ -165,7 +165,7 @@ namespace Bank
         private Client GenerateClient()
         {
             var client = new Client();
-            client.Id = currentClient.Id;
+            client.Id = currentClient == null ? 0 : currentClient.Id;
             client.TypeId = (int)clientTypeTB.SelectedValue;
             client.SpecId = (int)clientSpecTB.SelectedValue;
             client.Name = fioTB.Text;
