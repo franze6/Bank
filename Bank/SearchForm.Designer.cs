@@ -271,7 +271,7 @@
             this.Controls.Add(this.fioTB);
             this.Controls.Add(this.label1);
             this.Name = "SearchForm";
-            this.Text = "SearchForm";
+            this.Text = "Поиск клиента";
             this.ResumeLayout(false);
             this.PerformLayout();
 

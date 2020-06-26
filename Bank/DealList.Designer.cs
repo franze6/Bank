@@ -59,74 +59,95 @@
             this.collectorFio});
             this.dealListTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dealListTable.Location = new System.Drawing.Point(0, 0);
+            this.dealListTable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dealListTable.Name = "dealListTable";
             this.dealListTable.ReadOnly = true;
-            this.dealListTable.Size = new System.Drawing.Size(944, 450);
+            this.dealListTable.RowHeadersWidth = 62;
+            this.dealListTable.Size = new System.Drawing.Size(1416, 692);
             this.dealListTable.TabIndex = 0;
             this.dealListTable.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dealListTable_CellDoubleClick);
             // 
             // FIO
             // 
             this.FIO.HeaderText = "ФИО клиента";
+            this.FIO.MinimumWidth = 8;
             this.FIO.Name = "FIO";
             this.FIO.ReadOnly = true;
+            this.FIO.Width = 150;
             // 
             // eFio
             // 
             this.eFio.HeaderText = "ФИО сотрудника";
+            this.eFio.MinimumWidth = 8;
             this.eFio.Name = "eFio";
             this.eFio.ReadOnly = true;
+            this.eFio.Width = 150;
             // 
             // dealType
             // 
             this.dealType.HeaderText = "Тип сделки";
+            this.dealType.MinimumWidth = 8;
             this.dealType.Name = "dealType";
             this.dealType.ReadOnly = true;
+            this.dealType.Width = 150;
             // 
             // dealDate
             // 
             this.dealDate.HeaderText = "Дата сделки";
+            this.dealDate.MinimumWidth = 8;
             this.dealDate.Name = "dealDate";
             this.dealDate.ReadOnly = true;
+            this.dealDate.Width = 150;
             // 
             // dealSum
             // 
             this.dealSum.HeaderText = "Сумма сделки";
+            this.dealSum.MinimumWidth = 8;
             this.dealSum.Name = "dealSum";
             this.dealSum.ReadOnly = true;
+            this.dealSum.Width = 150;
             // 
             // finishDeal
             // 
             this.finishDeal.HeaderText = "Сделка завершена";
+            this.finishDeal.MinimumWidth = 8;
             this.finishDeal.Name = "finishDeal";
             this.finishDeal.ReadOnly = true;
+            this.finishDeal.Width = 150;
             // 
             // isAppealExists
             // 
             this.isAppealExists.HeaderText = "Обращение";
+            this.isAppealExists.MinimumWidth = 8;
             this.isAppealExists.Name = "isAppealExists";
             this.isAppealExists.ReadOnly = true;
+            this.isAppealExists.Width = 150;
             // 
             // dealScopeNum
             // 
             this.dealScopeNum.HeaderText = "Номер счета";
+            this.dealScopeNum.MinimumWidth = 8;
             this.dealScopeNum.Name = "dealScopeNum";
             this.dealScopeNum.ReadOnly = true;
+            this.dealScopeNum.Width = 150;
             // 
             // collectorFio
             // 
             this.collectorFio.HeaderText = "ФИО коллектора";
+            this.collectorFio.MinimumWidth = 8;
             this.collectorFio.Name = "collectorFio";
             this.collectorFio.ReadOnly = true;
+            this.collectorFio.Width = 150;
             // 
             // DealList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(944, 450);
+            this.ClientSize = new System.Drawing.Size(1416, 692);
             this.Controls.Add(this.dealListTable);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "DealList";
-            this.Text = "DealList";
+            this.Text = "Список сделок";
             ((System.ComponentModel.ISupportInitialize)(this.dealListTable)).EndInit();
             this.ResumeLayout(false);
 

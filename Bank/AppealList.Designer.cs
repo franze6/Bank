@@ -102,7 +102,7 @@
             this.ClientSize = new System.Drawing.Size(1121, 586);
             this.Controls.Add(this.appealListTable);
             this.Name = "AppealList";
-            this.Text = "AppealList";
+            this.Text = "Список обращений";
             ((System.ComponentModel.ISupportInitialize)(this.appealListTable)).EndInit();
             this.ResumeLayout(false);
 
